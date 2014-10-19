@@ -1,8 +1,8 @@
 # Readme for for Course project for Getting and Cleaning Data
 
-Goal: prepare tidy data that can be used for later analysis.
-Author:  Jonathan Hull
-Date: Oct. 18, 2014
+- Goal: prepare tidy data that can be used for later analysis.
+- Author:  Jonathan Hull
+- Date: Oct. 18, 2014
 
 ## This project produces Tidy Data
 
