@@ -63,9 +63,10 @@ This was done by sorting the extracted_measurements data frame by subject and th
 
 You can judge the tidyness of the data set that was created by the following steps:
 ```` 
- data <- read.table(file_path, header = TRUE) #if they used some other way of saving the file than a default write.table, this step will be different
+ data <- read.table("tidy_data.txt", header = TRUE) 
  View(data)
 ````
+This was suggested in https://class.coursera.org/getdata-008/forum/thread?thread_id=24
 
 You will see a table with 180 rows (1 row for each subject (30) and activity (6)).  It contains one column for each of the 66 variables defined in the code book.  There is one table because we have only one kind of data.  That is the mean of the selected variables.
 
