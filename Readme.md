@@ -61,14 +61,16 @@ This was done by sorting the extracted_measurements data frame by subject and th
 
 ## Judging tidyness of the independent tidy data set
 
-You can judge the tidyness of the data set that was created by the following steps:
+This program generates a tidy data text file that meets the principles of tidy data [ Hadley Wickham, "Tidy Data," Journal of Statistical Software, v. VV, Issue II, http://vita.had.co.nz/papers/tidy-data.pdf ].
+
+You can judge the tidiness of the data set that was created by the following steps:
 ```` 
  data <- read.table("tidy_data.txt", header = TRUE) 
  View(data)
 ````
 This was suggested in https://class.coursera.org/getdata-008/forum/thread?thread_id=24
 
-You will see a table with 180 rows (1 row for each subject (30) and activity (6)).  It contains one column for each of the 66 variables defined in the code book.  There is one table because we have only one kind of data.  That is the mean of the selected variables.
+You will see a table with 180 rows (1 row for each subject (30) and activity (6)).  It contains one column for each of the 66 variables defined in the code book (see codebook.md).  There is one table because we have only one kind of data.  That is the mean of the selected variables.
 
 You will note that there is a row at the top of the tidy_data.txt file with varianble names, the variable names are human readable, and there is one file for the table.  The human readability of the variable names resulted in some seeemingly overly long variable names, but the TA instructed that that is not a problem and in fact is encouraged.
 
