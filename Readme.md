@@ -60,7 +60,7 @@ According to the instructions from the TA on the course project discussion page,
 
 This was done by sorting the extracted_measurements data frame by subject and then activity.  That way subject varies slowest activity fastest.  Then, the data frame was melted across all the columns because they contain the data we want to summarize.  This creates a long narrow table that dcast() could summarize.  This table is dcast() into a tidy data frame that has subject and activity on the y axis and the variable names across the x axis.
 
-## Judging tidyness of the independent tidy data set
+## Judging tidiness of the independent tidy data set
 
 This program generates a tidy data text file that meets the principles of tidy data [ Hadley Wickham, "Tidy Data," Journal of Statistical Software, v. VV, Issue II, http://vita.had.co.nz/papers/tidy-data.pdf ].
 
