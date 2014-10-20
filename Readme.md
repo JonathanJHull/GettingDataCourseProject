@@ -70,6 +70,6 @@ This was suggested in https://class.coursera.org/getdata-008/forum/thread?thread
 
 You will see a table with 180 rows (1 row for each subject (30) and activity (6)).  It contains one column for each of the 66 variables defined in the code book.  There is one table because we have only one kind of data.  That is the mean of the selected variables.
 
-You will note that there is a row at the top of the tidy_data.txt file with varianble names, the variable names are human readable, and there is one file for the table.  The human readability of the variable names reulted in some seeemingly overly long variable names, but the TA instructed that that is not a problem and in fact is encouraged.
+You will note that there is a row at the top of the tidy_data.txt file with varianble names, the variable names are human readable, and there is one file for the table.  The human readability of the variable names resulted in some seeemingly overly long variable names, but the TA instructed that that is not a problem and in fact is encouraged.
 
 Also, the instruction list is run_analysis.R.  The input is the raw data, the output is the processed tidy data that is written to tidy_data.txt, and there are no parameters to the script.
